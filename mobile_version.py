@@ -4,19 +4,19 @@ import json
 import time
 
 #data for authorization for twilio
-account_sid = "ACb2a7534e1d84c28169f5b13bb7764745"
-auth_token = "787b63f2b13c95adf4fb70c5f247931a"
-my_no="+91 9077174834"#your phone no
+account_sid = "########################"
+auth_token = "############################"
+my_no="############"#your phone no
 
 #data for authorization for rail api
-mykey="4r4xgurbs4" #api key for railway api #100 requests per day
+mykey="##########" #api key for railway api #100 requests per day
 
 
 #sends the message=content to your phone
 def sendmsg(content):
 	try:	
 	    client =  Client(account_sid, auth_token)
-            message = client.messages.create(to=my_no, from_="+16194040245",body="Your status is "+content)
+            message = client.messages.create(to=my_no, from_="##########",body="Your status is "+content)
 	except Exception as e:
 		print "Sorry could not send message due to %s"%((type(e).__name__))
 
