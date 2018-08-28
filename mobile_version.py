@@ -9,7 +9,7 @@ auth_token = "############################"
 my_no="############"#your phone no
 
 #data for authorization for rail api
-mykey="##########" #api key for railway api #100 requests per day
+mykey="##########" #api key for railway api
 
 
 #sends the message=content to your phone
